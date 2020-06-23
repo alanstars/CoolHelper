@@ -1,0 +1,32 @@
+{
+    "name": "coolelephant/helper",
+    "description": "PHP 助手函数,PHP项目开发常用基础库，节省开发时间，避免重复造轮子，主要包含数组工具类，字符串工具类",
+    "keywords": ["PHP 助手函数","PHP helper function","PHP helper class"],
+    "type": "library",
+    "version": "1.0.0",
+
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "ALan",
+            "email": "zhangweili@kuxiangkj.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "CoolElephant\\Helper\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoolElephant\\Helper\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-json":"*",
+        "ext-fileinfo": "*",
+        "ext-openssl": "*"
+    }
+}
